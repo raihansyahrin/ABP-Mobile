@@ -6,7 +6,6 @@ import 'package:maenbal/app/modules/home/views/home_view.dart';
 import 'package:maenbal/app/modules/matches/views/matches_view.dart';
 import 'package:maenbal/app/modules/news/views/news_view.dart';
 import 'package:maenbal/app/modules/profile/views/profile_view.dart';
-import 'package:maenbal/app/modules/schedule/views/schedule_view.dart';
 import 'package:maenbal/app/shared/widgets/bottomnavbar_widget.dart';
 
 import '../controllers/main_controller.dart';
