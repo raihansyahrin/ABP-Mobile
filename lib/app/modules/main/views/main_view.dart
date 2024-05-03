@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:maenbal/app/data/bottomnavbar_model.dart';
-import 'package:maenbal/app/modules/highlight/views/highlight_view.dart';
+import 'package:maenbal/app/modules/highlights/views/highlights_view.dart';
 import 'package:maenbal/app/modules/home/views/home_view.dart';
+import 'package:maenbal/app/modules/matches/views/matches_view.dart';
 import 'package:maenbal/app/modules/news/views/news_view.dart';
 import 'package:maenbal/app/modules/profile/views/profile_view.dart';
 import 'package:maenbal/app/modules/schedule/views/schedule_view.dart';
-import 'package:maenbal/app/modules/score/views/score_view.dart';
 import 'package:maenbal/app/shared/widgets/bottomnavbar_widget.dart';
 
 import '../controllers/main_controller.dart';
@@ -23,12 +22,11 @@ class MainView extends GetView<MainController> {
           body: Center(
             child: IndexedStack(
               index: controller.tabIndex,
-              children: [
+              children: const [
                 HomeView(),
                 NewsView(),
-                ScoreView(),
-                ScheduleView(),
-                HighlightView(),
+                MatchesView(),
+                HighlightsView(),
                 ProfileView(),
               ],
             ),

@@ -34,16 +34,11 @@ class BottomNavBar extends StatelessWidget {
         BottomNavigationBarItem(
           icon: Icon(Icons.add_box_outlined),
           activeIcon: Icon(Icons.add_box),
-          label: 'Score',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.view_sidebar_outlined),
-          activeIcon: Icon(Icons.view_sidebar),
-          label: 'Schedule',
+          label: 'Matches',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.account_circle_outlined),
-          label: 'Highlight',
+          label: 'Highlights',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.account_circle_outlined),

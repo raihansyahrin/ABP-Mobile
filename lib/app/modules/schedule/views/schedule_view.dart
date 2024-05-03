@@ -10,7 +10,10 @@ class ScheduleView extends GetView<ScheduleController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ScheduleView'),
+        title: const Text(
+          'Sch',
+          style: TextStyle(),
+        ),
         centerTitle: true,
       ),
       body: const Center(
