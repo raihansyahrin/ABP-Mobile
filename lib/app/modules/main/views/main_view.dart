@@ -13,6 +13,8 @@ import '../controllers/main_controller.dart';
 // ignore: must_be_immutable
 class MainView extends GetView<MainController> {
   var selectedIndex = 0.obs;
+
+  MainView({super.key});
   @override
   Widget build(BuildContext context) {
     return GetBuilder<MainController>(
