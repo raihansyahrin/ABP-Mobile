@@ -18,8 +18,8 @@ class BottomNavBar extends StatelessWidget {
       onTap: onTap,
       selectedItemColor: Colors.black,
       unselectedItemColor: Colors.grey,
-      showSelectedLabels: false,
-      showUnselectedLabels: false,
+      showSelectedLabels: true,
+      showUnselectedLabels: true,
       items: [
         BottomNavigationBarItem(
           icon: Icon(Icons.home_outlined),
@@ -29,21 +29,21 @@ class BottomNavBar extends StatelessWidget {
         BottomNavigationBarItem(
           icon: Icon(Icons.search_outlined),
           activeIcon: Icon(Icons.search),
-          label: 'Search',
+          label: 'News',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.add_box_outlined),
           activeIcon: Icon(Icons.add_box),
-          label: 'New Post',
+          label: 'Score',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.view_sidebar_outlined),
           activeIcon: Icon(Icons.view_sidebar),
-          label: 'Reels',
+          label: 'Schedule',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.account_circle_outlined),
-          label: 'Profile',
+          label: 'Highlight',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.account_circle_outlined),
