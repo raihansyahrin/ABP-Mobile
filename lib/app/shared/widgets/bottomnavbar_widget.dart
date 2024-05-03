@@ -45,6 +45,10 @@ class BottomNavBar extends StatelessWidget {
           icon: Icon(Icons.account_circle_outlined),
           label: 'Profile',
         ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.account_circle_outlined),
+          label: 'Profile',
+        ),
       ],
     );
   }
