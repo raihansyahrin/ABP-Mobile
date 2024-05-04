@@ -2,20 +2,20 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
-import '../controllers/score_controller.dart';
+import '../controllers/highlights_controller.dart';
 
-class ScoreView extends GetView<ScoreController> {
-  const ScoreView({Key? key}) : super(key: key);
+class HighlightsView extends GetView<HighlightsController> {
+  const HighlightsView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ScoreView'),
+        title: const Text('HighlightsView'),
         centerTitle: true,
       ),
       body: const Center(
         child: Text(
-          'ScoreView is working',
+          'HighlightsView is working',
           style: TextStyle(fontSize: 20),
         ),
       ),

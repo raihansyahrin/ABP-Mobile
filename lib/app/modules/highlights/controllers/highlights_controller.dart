@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-class HighlightController extends GetxController {
-  //TODO: Implement HighlightController
+class HighlightsController extends GetxController {
+  //TODO: Implement HighlightsController
 
   final count = 0.obs;
   @override
