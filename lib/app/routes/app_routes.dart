@@ -6,9 +6,8 @@ abstract class Routes {
   static const HOME = _Paths.HOME;
   static const MAIN = _Paths.MAIN;
   static const NEWS = _Paths.NEWS;
-  static const SCORE = _Paths.SCORE;
-  static const SCHEDULE = _Paths.SCHEDULE;
-  static const HIGHLIGHT = _Paths.HIGHLIGHT;
+  static const MATCHES = _Paths.MATCHES;
+  static const HIGHLIGHTS = _Paths.HIGHLIGHTS;
   static const PROFILE = _Paths.PROFILE;
 }
 
@@ -17,8 +16,7 @@ abstract class _Paths {
   static const HOME = '/home';
   static const MAIN = '/main';
   static const NEWS = '/news';
-  static const SCORE = '/score';
-  static const SCHEDULE = '/schedule';
-  static const HIGHLIGHT = '/highlight';
+  static const MATCHES = '/matches';
+  static const HIGHLIGHTS = '/highlights';
   static const PROFILE = '/profile';
 }

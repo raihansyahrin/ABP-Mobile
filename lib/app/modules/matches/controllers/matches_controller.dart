@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-class ScoreController extends GetxController {
-  //TODO: Implement ScoreController
+class MatchesController extends GetxController {
+  //TODO: Implement MatchesController
 
   final count = 0.obs;
   @override
