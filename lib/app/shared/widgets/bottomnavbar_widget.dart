@@ -16,32 +16,64 @@ class BottomNavBar extends StatelessWidget {
       type: BottomNavigationBarType.fixed,
       currentIndex: currentIndex,
       onTap: onTap,
-      selectedItemColor: Colors.black,
+      selectedItemColor: Color(0xff54B9FC),
       unselectedItemColor: Colors.grey,
       showSelectedLabels: true,
       showUnselectedLabels: true,
       items: [
         BottomNavigationBarItem(
-          icon: Icon(Icons.home_outlined),
-          activeIcon: Icon(Icons.home),
+          icon: Image.asset(
+            "assets/icons/home.png",
+            height: 24,
+          ),
+          activeIcon: Image.asset(
+            "assets/icons/home-active.png",
+            height: 24,
+          ),
           label: 'Home',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.search_outlined),
-          activeIcon: Icon(Icons.search),
+          icon: Image.asset(
+            "assets/icons/news.png",
+            height: 24,
+          ),
+          activeIcon: Image.asset(
+            "assets/icons/news-active.png",
+            height: 24,
+          ),
           label: 'News',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.add_box_outlined),
-          activeIcon: Icon(Icons.add_box),
+          icon: Image.asset(
+            "assets/icons/matches.png",
+            height: 24,
+          ),
+          activeIcon: Image.asset(
+            "assets/icons/matches-active.png",
+            height: 24,
+          ),
           label: 'Matches',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.account_circle_outlined),
+          icon: Image.asset(
+            "assets/icons/highlights.png",
+            height: 24,
+          ),
+          activeIcon: Image.asset(
+            "assets/icons/highlights-active.png",
+            height: 24,
+          ),
           label: 'Highlights',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.account_circle_outlined),
+          icon: Image.asset(
+            "assets/icons/profile.png",
+            height: 24,
+          ),
+          activeIcon: Image.asset(
+            "assets/icons/profile-active.png",
+            height: 24,
+          ),
           label: 'Profile',
         ),
       ],

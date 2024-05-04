@@ -24,8 +24,10 @@ class MatchesView extends GetView<MatchesController> {
               //
               ScoreView(),
               //
-              ScoreView(), //
-              ScoreView(), //
+              ScoreView(),
+              //
+              ScoreView(),
+              //
               ScoreView(),
             ],
           ),
